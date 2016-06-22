@@ -69,8 +69,8 @@ public class UserTest {
 	public static void main(String[] args) {
 		UserTest userTest = new UserTest();
 
-		 userTest.getUserById();
-//		userTest.getUserById2();
+//		 userTest.getUserById();
+		userTest.getUserById2();
 	}
 
 }
