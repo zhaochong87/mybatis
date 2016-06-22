@@ -4,8 +4,6 @@
 
 <!-- 方式一：直接映射实体 -->
  <mapper namespace="com.zhaochong.mybatis.bean.UserMapper">
-<!-- 方式二：接口形式的映射 -->
-<!--<mapper namespace="com.zhaochong.mybatis.dao.UserDao">-->
 	<select id="selectUserByID" parameterType="int" resultType="User">
 		select * from USER where id = #{id}
 	</select>
