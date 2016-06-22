@@ -11,6 +11,7 @@
     <modules>
         <module>collections</module>
         <module>mybatis-1</module>
+        <module>mybatis-2</module>
     </modules>
 
 
