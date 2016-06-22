@@ -1,3 +1,1 @@
 mybatis实战教程(mybatis in action)之二：以接口的方式编程
-
-实现单表CRUD操作
