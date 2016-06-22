@@ -41,6 +41,7 @@
         <module>mybatis-1</module>
         <module>mybatis-2</module>
         <module>mybatis-3</module>
+        <module>mybatis-4</module>
     </modules>
 
 
