@@ -4,6 +4,9 @@ import com.zhaochong.mybatis.bean.User;
 
 import java.util.List;
 
+/**
+ * 单表CRUD操作
+ */
 public interface UserDao {
     
 	public User selectUserByID(int id);
