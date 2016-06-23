@@ -14,7 +14,7 @@ import com.zhaochong.mybatis.bean.Article;
 import com.zhaochong.mybatis.dao.UserDao;
 
 @Controller
-@RequestMapping("/article")
+@RequestMapping("/user")
 public class UserController {
 
 	@Autowired

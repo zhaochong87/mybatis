@@ -43,6 +43,12 @@
         <module>mybatis-4</module>
         <module>mybatis-5</module>
         <module>mybatis-6</module>
+        <module>web1</module>
+        <module>web2</module>
+        <module>web3</module>
+        <module>mybatis-5-mvc</module>
+        <module>web</module>
+        <module>ww</module>
     </modules>
 
 

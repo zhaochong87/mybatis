@@ -37,9 +37,7 @@
             <version>${spring.version}</version>
         </dependency>
 
-        <!-- 依赖于mybatis，二者要版本相匹配才行（但mybatis还是显示声明依赖比较好）， 否则报错：Exception in thread
-			"main" java.lang.AbstractMethodError: org.mybatis.spring.transaction.SpringManag
-			http://blog.csdn.net/jiangyeqt/article/details/46515899 -->
+        <!-- 依赖于mybatis，二者要版本相匹配才行（但mybatis还是显示声明依赖比较好） -->
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis-spring</artifactId>

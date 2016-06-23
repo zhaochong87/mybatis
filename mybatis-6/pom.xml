@@ -86,7 +86,7 @@
                 <configuration>
                     <webAppSourceDirectory>src/main/webapp</webAppSourceDirectory>
                     <scanIntervalSeconds>3</scanIntervalSeconds>
-                    <contextPath>/chapter1</contextPath>
+                    <contextPath>/mybatis-6</contextPath>
                     <connectors>
                         <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
                             <port>8080</port>
