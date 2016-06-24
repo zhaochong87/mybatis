@@ -7,13 +7,19 @@
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+
+    <!-- 指定启动Spring容器的配置文件地址(也可配置在MVC里面，但配置在web.xml中可让spring容器随web应用的启动而自动启动) -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>/WEB-INF/applicationContext.xml</param-value>
     </context-param>
+
+    <!-- 使用ContextLoaderListener启动Spring容器 -->
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
+
+    <!-- 配置Spring MVC 核心Servlet -->
     <servlet>
         <servlet-name>dispatcher</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
