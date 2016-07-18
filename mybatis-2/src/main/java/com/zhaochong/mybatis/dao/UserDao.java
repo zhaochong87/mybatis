@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface UserDao {
     
-	public User selectUserByID(int id);
+	User selectUserByID(int id);
 
 }
