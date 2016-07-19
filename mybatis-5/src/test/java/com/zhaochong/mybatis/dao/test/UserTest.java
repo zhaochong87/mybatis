@@ -66,11 +66,11 @@ public class UserTest {
 	 */
 	public void getUserList(String userName) {
 		UserDao userDao = (UserDao) context.getBean("userMapper");
-		// 映射接口
-		List<User> users = userDao.selectUsers(userName);
-		for (User user : users) {
-			System.out.println(user.getId() + ":" + user.getUserName() + ":" + user.getUserAddress());
-		}
+			// 映射接口
+			List<User> users = userDao.selectUsers(userName);
+			for (User user : users) {
+				System.out.println(user.getId() + ":" + user.getUserName() + ":" + user.getUserAddress());
+			}
 	}
 
 	/**
@@ -120,7 +120,7 @@ public class UserTest {
 	public static void main(String[] args) {
 		UserTest userTest = new UserTest();
 
-		userTest.getUserById();
+		 userTest.getUserById();
 //		userTest.addUser();
 		userTest.getUserList("%");
 //		userTest.updateUser();
