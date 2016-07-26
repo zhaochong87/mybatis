@@ -2,6 +2,7 @@ package com.zhaochong.mybatis.dao;
 
 import com.zhaochong.mybatis.bean.Article;
 import com.zhaochong.mybatis.bean.User;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -13,6 +14,8 @@ public interface UserDao {
 	public User selectUserByID(int id);
 
 	public List<User> selectUsers(String userName);
+
+	public List<User> selectUsers();
 
 	public void addUser(User user);
 
