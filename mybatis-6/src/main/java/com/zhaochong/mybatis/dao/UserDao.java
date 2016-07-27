@@ -15,7 +15,7 @@ public interface UserDao {
 
 	public List<User> selectUsers(String userName);
 
-	public List<User> selectUsers();
+	public List selectUsers();
 
 	public void addUser(User user);
 

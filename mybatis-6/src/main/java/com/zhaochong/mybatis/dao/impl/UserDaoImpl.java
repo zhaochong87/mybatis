@@ -28,13 +28,13 @@ public class UserDaoImpl implements UserDao {
     public List<User> selectUsers(String userName) {
         String sql = "select * from article ";
         return jdbcTemplate.queryForList(sql, User.class);
+//        return jdbcTemplate.queryForList(sql);
     }
 
-    public List<User> selectUsers() {
+    public List selectUsers() {
         String sql = "select * from USER ";
 //        List<User> users = jdbcTemplate.queryForList(sql, User.class);
-        Object objectMap = jdbcTemplate.queryForMap(sql);
-        return null;
+        return jdbcTemplate.queryForList(sql);
     }
 
     public void addUser(User user) {
